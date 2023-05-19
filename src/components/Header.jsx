@@ -32,7 +32,7 @@ const Header = () => {
         {/* logo */}
         <a
           href='/'
-          data-aos='fade-down'
+          data-aos='fade-down-right'
           data-aos-delay='1000'
         >
           <img
@@ -52,7 +52,7 @@ const Header = () => {
         {/** cta button - initially hideen - show on desktop mode **/}
         <a
           className='btn btn-sm btn-outline hidden lg:flex'
-          data-aos='fade-down'
+          data-aos='fade-down-left'
           data-aos-delay='1400'
           href='#contacto'
         >
@@ -74,7 +74,7 @@ const Header = () => {
               ${mobileNav
               ? 'left-0'
               : '-left-full'}
-              fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-yellow-500    
+              fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-[#d1ae6c]   
            `}
         >
           <MobileNav />

@@ -5,7 +5,9 @@ import 'aos/dist/aos.css'
 //import css
 import './index.css'
 //import components
-import Header  from './components/Header.jsx';
+import Header  from './components/Header';
+import Mision from './components/Mision';
+
 const App = () => {
 // initialize aos
 Aos.init({
@@ -13,9 +15,10 @@ Aos.init({
   offset: 100,
 })
   return (
-    <>
+    <div className='overflow-hidden'>
       <Header />
-    </>
+      <Mision />
+    </div>
   )
 }
 

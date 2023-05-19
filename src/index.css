@@ -3,13 +3,47 @@
 @tailwind utilities;
 
 @layer base {
+  .title,
+  .section-title {
+    @apply text-6xl lg:text-8xl mb-2 font-bold;
+  }
+  .h2 {
+    @apply text-5xl lg:text-7xl font-bold;
+  }
+  .pretitle {
+    @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;
+  }
+  .lead {
+    @apply text-2xl text-light font-normal mb-6;
+  }
+  .link {
+    @apply text-lg text-black;
+  }
+  .section {
+    @apply py-8 lg:py-[142px];
+  }
   .btn {
     @apply rounded-lg transition flex justify-center items-center;
+  }
+  .btn-lg {
+    @apply h-[75px] px-6 text-2xl font-normal;
+  }
+  .btn-md {
+    @apply h-[60px] px-[16px] text-lg font-normal;
   }
   .btn-sm {
     @apply h-[48px] px-[16px] text-lg font-normal;
   }
+  .btn-accent {
+    @apply text-white bg-[#d1ae6c] hover:bg-[#c2933d];
+  }
+  .btn-white {
+    @apply text-[#d1ae6c] bg-white hover:bg-white/90;
+  }
   .btn-outline {
-    @apply bg-transparent text-gray-700 border border-gray-700 hover:bg-gray-700 hover:text-white;
+    @apply bg-transparent text-[#363435] border border-[#363435] hover:bg-[#363435] hover:text-white;
+  }
+  .btn-link {
+    @apply text-[#d1ae6c]text-xl lg:text-2xl;
   }
 }

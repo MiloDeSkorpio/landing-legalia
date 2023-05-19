@@ -1,10 +1,11 @@
 // import imagenes
 import LogoImg from '../src/assets/img/logoLegalia.png'
+import HeroImg from '../src/assets/img/hero.jpg'
 
 
 export const header = {
   logo: LogoImg,
-  btnText: 'Contactanos'
+  btnText: 'Contáctanos'
 }
 export const nav = [
   { name: 'Mision', href:'#mision' },
@@ -19,7 +20,9 @@ export const mision = {
   title: 'Nuestra Misión',
   subtitle: 'Proporcionar servicios legales de alta calidad y asesoría jurídica personalizada a nuestros clientes, basados en la ética profesional, el compromiso y la excelencia, con el fin de proteger sus derechos e intereses, resolver conflictos y alcanzar soluciones efectivas a sus necesidades legales, aportando valor a la sociedad y construyendo relaciones duraderas y de confianza con nuestros clientes',
   btnLink: '#vision',
-  image: 'aqui va la image'
+  btnText: 'Vision',
+  compText: '— Misión, Visión y  Catalogo de Servicios',
+  image: HeroImg
 }
 
 export const vision = {
