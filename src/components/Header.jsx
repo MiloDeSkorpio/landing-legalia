@@ -63,9 +63,9 @@ const Header = () => {
           setMovileNav(!mobileNav)
         }}>
           {mobileNav ? (
-            <HiOutlineX className='text-3xl text-blue-700' />
+            <HiOutlineX className='text-4xl text-[#d1ae6c]' />
           ) : (
-            <HiMenuAlt4 className='text-3xl text-blue-700' />
+            <HiMenuAlt4 className='text-4xl text-[#d1ae6c]' />
           )}
         </button>
         {/** mobile nav - hidden on desktop **/}
@@ -74,7 +74,7 @@ const Header = () => {
               ${mobileNav
               ? 'left-0'
               : '-left-full'}
-              fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-blue-500    
+              fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-yellow-500    
            `}
         >
           <MobileNav />

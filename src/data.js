@@ -1,7 +1,9 @@
 // import imagenes
+import LogoImg from '../src/assets/img/logoLegalia.png'
+
 
 export const header = {
-  logo: 'aqui va el logo',
+  logo: LogoImg,
   btnText: 'Contactanos'
 }
 export const nav = [
