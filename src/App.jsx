@@ -7,6 +7,7 @@ import './index.css'
 //import components
 import Header  from './components/Header';
 import Mision from './components/Mision';
+import Vision from './components/Vision';
 
 const App = () => {
 // initialize aos
@@ -18,6 +19,7 @@ Aos.init({
     <div className='overflow-hidden'>
       <Header />
       <Mision />
+      <Vision />
     </div>
   )
 }
