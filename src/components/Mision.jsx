@@ -38,11 +38,11 @@ const Mision = () => {
             </div>
           </div>
           <div
-            className='flex-1'
+            className='flex-1 aspect-ratio aspect-ratio-16/9'
             data-aos="fade-up"
             data-aos-delay='800'
           >
-            <img className='rounded-md mr-0 w-625 h-352' src={image} alt="Imagen de Mision" />
+            <img className='rounded-md' src={image} alt="Imagen de Mision" />
           </div>
         </div>
       </div>
