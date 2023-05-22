@@ -42,7 +42,7 @@ const Mision = () => {
             data-aos="fade-up"
             data-aos-delay='800'
           >
-            <img className='rounded-md' width="640" height="360" src={image} alt="Imagen de Mision" />
+            <img className='rounded-md mr-0 w-625 h-352' src={image} alt="Imagen de Mision" />
           </div>
         </div>
       </div>
