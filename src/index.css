@@ -35,7 +35,7 @@
     @apply h-[48px] px-[16px] text-lg font-normal;
   }
   .btn-accent {
-    @apply text-white bg-[#d1ae6c] hover:bg-[#c2933d];
+    @apply text-black bg-[#d1ae6c] hover:bg-[#c2933d];
   }
   .btn-white {
     @apply text-[#d1ae6c] bg-white hover:bg-white/90;
