@@ -24,7 +24,7 @@ const Header = () => {
       className={`
         ${isActive
           ? 'bg-white shadow-2xl'
-          : 'lg:top-[60px]'}
+          : 'lg:top-[0px]'}
         py-6 lg:py-2 fixed w-full transition-all z-10 
         `}
     >

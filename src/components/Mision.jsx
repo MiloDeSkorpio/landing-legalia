@@ -7,7 +7,7 @@ const Mision = () => {
   //destructure mision data
   const {title, subtitle, btnLink, image, btnText, compText } = mision
   return (
-    <section className='bg-white min-h-[900px] py-12'>
+    <section className='bg-white section' id='mision'>
       <div className='container mx-auto min-h-[900px] flex justify-center items-center'>
         <div className='flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-center text-center lg:text-left'>
           <div className='flex-1'>

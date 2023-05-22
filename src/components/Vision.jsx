@@ -6,7 +6,7 @@ const Vision = () => {
   const { title, subtitle, btnLink, btnIcon, image } = vision
   return (
     <section className='section bg-white' id='vision'>
-      <div className='container mx-auto'>
+      <div className='container mx-auto min-h-[900px] flex justify-center items-center'>
         <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
           {/** text **/}
           <div
