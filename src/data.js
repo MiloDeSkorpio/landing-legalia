@@ -1,6 +1,6 @@
 // import imagenes
-import LogoImg from '../src/assets/img/logoLegalia.png'
-import HeroImg from '../src/assets/img/hero.jpg'
+import LogoImg from '../src/assets/img/logoLegalia.svg'
+import HeroImg from '../src/assets/img/hero.svg'
 import ArrowIcon from '../src/assets/img/arrow-right.svg' 
 export const header = {
   logo: LogoImg,
