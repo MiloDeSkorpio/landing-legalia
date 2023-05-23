@@ -29,6 +29,8 @@ const Vision = () => {
                 src={btnIcon}
                 alt='icon'
                 className='text-[#d1ae6c]'
+                width="24"
+                height="24"
               />
             </a>
           </div>
