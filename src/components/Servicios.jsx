@@ -52,7 +52,7 @@ const Servicios = () => {
                   onClick={() => setIndex(cardIndex)}
                   className={`${cardIndex === index
                     ? 'bg-[#dabe8b] shadow-xl'
-                    : 'border border-[#c2933d]'
+                    : 'border border-[#eddfc5]'
                     }  w-[220px] h-[140px] rounded-[15px] md:w-[220px] bg-[#d1ae6c] flex flex-col items-center justify-center mx-auto p-[10px] text-center cursor-pointer transition-all                  
                 `}
                 >
