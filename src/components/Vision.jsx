@@ -14,7 +14,7 @@ const Vision = () => {
             data-aos='fade-right'
             data-aos-offset='500'
           >
-            <img className='rounded-md object-cover' src={image} alt='Imagen de Visión' />
+            <img className='rounded-md object-cover' src={image} alt='Imagen de Visión' loading="lazy" />
           </div>
           {/** text **/}
           <div

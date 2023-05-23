@@ -39,6 +39,7 @@ const Header = () => {
             src={logo}
             alt='logo'
             className='w-40 h-28 m-0'
+            loading="lazy"
           />
         </a>
         {/** nav - initially hidden - show on desktop mode **/}

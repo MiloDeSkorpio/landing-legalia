@@ -32,7 +32,7 @@ const Footer = () => {
                 return (
                   <li key={index}>
                     <a href={href} target="_blank" rel="noopener noreferrer">
-                      <img src={icon} alt='social' className='h-12 w-12' />
+                      <img src={icon} alt='social' className='h-12 w-12' loading="lazy"/>
                     </a>
                   </li>
                 )

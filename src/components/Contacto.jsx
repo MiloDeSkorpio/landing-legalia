@@ -86,6 +86,7 @@ const Contacto = () => {
             src={form.logo}
             alt='logof'
             className='rounded-md object-cover'
+            loading="lazy"
           />
         </div>
       </div>

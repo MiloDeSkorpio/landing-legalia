@@ -33,6 +33,7 @@ const Servicios = () => {
             src={img}
             alt='logof'
             className='rounded-md object-cover'
+            loading="lazy"
           />
         </div>
         {/** cards **/}
@@ -59,7 +60,7 @@ const Servicios = () => {
                   {/** card name **/}
                   <div className='text-[20px] font-semibold mb-3'>{name}</div>
                   {/** card img **/}
-                  {index === cardIndex && <a href='#contacto'><img src={ArrowImg} alt='rowcard' /></a>}
+                  {index === cardIndex && <a href='#contacto'><img src={ArrowImg} alt='rowcard' loading="lazy" /></a>}
                 </div>
               </div>
             )
