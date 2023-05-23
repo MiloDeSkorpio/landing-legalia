@@ -87,6 +87,8 @@ const Contacto = () => {
             alt='logof'
             className='rounded-md object-cover'
             loading="lazy"
+            height="667"
+            width="1000"
           />
         </div>
       </div>
