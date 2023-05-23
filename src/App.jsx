@@ -10,6 +10,7 @@ import Mision from './components/Mision';
 import Vision from './components/Vision';
 import Servicios from './components/Servicios';
 import Contacto from './components/Contacto';
+import Footer from './components/Footer';
 
 const App = () => {
 // initialize aos
@@ -24,6 +25,7 @@ Aos.init({
       <Vision />
       <Servicios />
       <Contacto />
+      <Footer />
     </div>
   )
 }

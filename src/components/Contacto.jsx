@@ -1,6 +1,6 @@
 import React from 'react'
 //import data
-import { contacto } from '../data'
+import { contacto } from '../data.js'
 //import components
 // import emailjs from '@emailjs/browser'
 const Contacto = () => {
@@ -10,7 +10,7 @@ const Contacto = () => {
   const { form, title } = contacto
   return (
     <section className='bg-white section' id='contacto'>
-    <div className='container mx-auto max-w-[920px]'>
+    <div className='container mx-auto max-w-[1200px]'>
       {/** title **/}
       <h2
         className='title mb-10 lg:mb-20 text-center  mx-auto'

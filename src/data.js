@@ -5,6 +5,9 @@ import ArrowIcon from '../src/assets/img/arrow-right.svg'
 import VisionImg from '../src/assets/img/vision.svg'
 import ServicesImg from '../src/assets/img/services.svg'
 import ContactImg from '../src/assets/img/contact.svg'
+import FacebookIcon from '../src/assets/img/facebook.svg'
+import WhatsAppIcon from '../src/assets/img/whatsapp.svg'
+import InstagramIcon from '../src/assets/img/instagram.svg'
 
 export const header = {
   logo: LogoImg,
@@ -89,10 +92,20 @@ export const contacto = {
   },
 }
 
-export const social = {
+export const footer = {
   title: 'Redes Sociales',
-  redes: [
-    {name: 'Facebook', href: ''},
-    {name: 'WhatsApp', href: ''},
+  logo: LogoImg,
+  social: [
+    {icon: FacebookIcon , href: 'https://www.facebook.com/profile.php?id=100091816060022'},
+    {icon: WhatsAppIcon, href: ''},
+    {icon: InstagramIcon, href: 'https://www.instagram.com/legaliadj/'},
   ]
+}
+
+export const copyright = {
+  link: {
+    name: 'Contáctanos',
+    href: '#contacto',
+  },
+  copyText: 'Copyright @ 2023 Legalia'
 }
