@@ -97,7 +97,7 @@ export const footer = {
   address: 'Mariano Zúñiga 113 Col. El Hipico, Metepec, Mexico',
   social: [
     {icon: FacebookIcon , href: 'https://www.facebook.com/profile.php?id=100091816060022'},
-    {icon: WhatsAppIcon, href: ''},
+    {icon: WhatsAppIcon, href: '#'},
     {icon: InstagramIcon, href: 'https://www.instagram.com/legaliadj/'},
   ]
 }
