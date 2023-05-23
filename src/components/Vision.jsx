@@ -11,7 +11,7 @@ const Vision = () => {
           {/** image **/}
           <div
             className='flex-1 aspect-ratio aspect-ratio-16/9'
-            data-aos='fade-up'
+            data-aos='fade-right'
             data-aos-offset='500'
           >
             <img className='rounded-md object-cover' src={image} alt='Imagen de Visión' />

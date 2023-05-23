@@ -3,7 +3,7 @@ import LogoImg from '../src/assets/img/logoLegalia.svg'
 import HeroImg from '../src/assets/img/hero.svg'
 import ArrowIcon from '../src/assets/img/arrow-right.svg' 
 import VisionImg from '../src/assets/img/vision.svg'
-
+import ServicesImg from '../src/assets/img/services.svg'
 
 
 export const header = {
@@ -38,11 +38,41 @@ export const vision = {
 
 export const servicios = {
   title: 'Nuestros Servicios',
-  catalogo: [
-    { name: 'Licencia de Construción' },
-    { name: 'Licencia de Uso de Suelo' },
-    { name: 'Licencia de Demolición' },
-    { name: 'Tramites relativos a construcción' },
+  subtitle: 'Asesoria Juridica',
+  img: ServicesImg,
+  cards: [
+    { 
+      name: 'Licencia de Construción',
+      delay: 100 
+    },
+    { 
+      name: 'Licencia de Uso de Suelo',
+      delay: 200
+    },
+    { 
+      name: 'Licencia de Demolición',
+      delay: 300 
+    },
+    { 
+      name: 'Tramites relativos a construcción',
+      delay: 400 
+    },
+    { 
+      name: 'Laboral',
+      delay: 400 
+    },
+    { 
+      name: 'Civil',
+      delay: 400 
+    },
+    { 
+      name: 'Familiar',
+      delay: 400 
+    },
+    { 
+      name: 'Penal',
+      delay: 400 
+    },
   ]
 
 }

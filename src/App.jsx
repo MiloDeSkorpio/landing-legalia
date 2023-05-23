@@ -8,7 +8,7 @@ import './index.css'
 import Header  from './components/Header';
 import Mision from './components/Mision';
 import Vision from './components/Vision';
-
+import Servicios from './components/Servicios';
 const App = () => {
 // initialize aos
 Aos.init({
@@ -20,6 +20,7 @@ Aos.init({
       <Header />
       <Mision />
       <Vision />
+      <Servicios />
     </div>
   )
 }
