@@ -4,7 +4,7 @@ import HeroImg from '../src/assets/img/hero.svg'
 import ArrowIcon from '../src/assets/img/arrow-right.svg' 
 import VisionImg from '../src/assets/img/vision.svg'
 import ServicesImg from '../src/assets/img/services.svg'
-
+import ContactImg from '../src/assets/img/contact.svg'
 
 export const header = {
   logo: LogoImg,
@@ -78,7 +78,15 @@ export const servicios = {
 }
 export const contacto = {
   title: 'Contactanos',
-  image: 'aqui va la image'
+  form: {
+    ph1: 'Ramon Perez',
+    ph2: 'perez.ra10@correo.es',
+    ph3: 'Cotizacion',
+    ph4: 'Requiero informes sobre...',
+    btnText: 'Enviar',
+    smallText: 'Recuerda revisar tus datos!',
+    logo: ContactImg
+  },
 }
 
 export const social = {

@@ -9,6 +9,8 @@ import Header  from './components/Header';
 import Mision from './components/Mision';
 import Vision from './components/Vision';
 import Servicios from './components/Servicios';
+import Contacto from './components/Contacto';
+
 const App = () => {
 // initialize aos
 Aos.init({
@@ -21,6 +23,7 @@ Aos.init({
       <Mision />
       <Vision />
       <Servicios />
+      <Contacto />
     </div>
   )
 }
