@@ -2,6 +2,10 @@
 import LogoImg from '../src/assets/img/logoLegalia.svg'
 import HeroImg from '../src/assets/img/hero.svg'
 import ArrowIcon from '../src/assets/img/arrow-right.svg' 
+import VisionImg from '../src/assets/img/vision.svg'
+
+
+
 export const header = {
   logo: LogoImg,
   btnText: 'Contáctanos'
@@ -25,11 +29,11 @@ export const mision = {
 }
 
 export const vision = {
-  title: 'Nuestra Vision',
+  title: 'Nuestra Visión',
   subtitle: 'Ser reconocidos como líderes en la prestación de servicios legales de alta calidad y excelencia, en constante evolución y mejora, con un enfoque en la satisfacción del cliente y la solución efectiva de sus necesidades jurídicas, destacándonos por nuestra ética profesional, compromiso y capacidad de innovación y adaptación a un entorno legal en constante cambio. Aspiramos a ser un despacho jurídico de referencia, que contribuya al desarrollo de la sociedad y que sea un lugar de trabajo inspirador y motivador para nuestros profesionistas a nivel nacional, dejando una marca en el hito hístorico del pais',
   btnLink: 'Servicios',
   btnIcon: ArrowIcon,
-  image: HeroImg
+  image: VisionImg
 }
 
 export const servicios = {
