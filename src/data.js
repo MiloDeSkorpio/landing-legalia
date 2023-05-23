@@ -94,7 +94,7 @@ export const contacto = {
 
 export const footer = {
   title: 'Redes Sociales',
-  logo: LogoImg,
+  address: 'Mariano Zúñiga 113 Col. El Hipico, Metepec, Mexico',
   social: [
     {icon: FacebookIcon , href: 'https://www.facebook.com/profile.php?id=100091816060022'},
     {icon: WhatsAppIcon, href: ''},
@@ -103,9 +103,5 @@ export const footer = {
 }
 
 export const copyright = {
-  link: {
-    name: 'Contáctanos',
-    href: '#contacto',
-  },
   copyText: 'Copyright @ 2023 Legalia'
 }
