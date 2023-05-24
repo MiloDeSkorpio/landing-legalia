@@ -3,7 +3,7 @@
   "short_name": "Legalia",
   "icons": [
     {
-      "src": "/src/assets/img/iconLegalia.png",
+      "src": "/src/assets/img/icon512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
