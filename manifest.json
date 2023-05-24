@@ -3,7 +3,7 @@
   "short_name": "Legalia",
   "icons": [
     {
-      "src": "/dist/assets/icon512.png",
+      "src": "/assets/img/icon512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
