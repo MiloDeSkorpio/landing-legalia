@@ -4,7 +4,7 @@
   "icons": [
     {
       "src": "/src/assets/img/iconLegalia.png",
-      "sizes": "32x32",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
