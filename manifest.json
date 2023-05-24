@@ -1,0 +1,14 @@
+{
+  "name": "Legalia Despacho Juridico",
+  "short_name": "Legalia",
+  "icons": [
+    {
+      "src": "/src/assets/img/iconLegalia.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
