@@ -35,13 +35,13 @@
     @apply h-[48px] px-[16px] text-lg font-normal;
   }
   .btn-accent {
-    @apply text-black bg-[#d1ae6c] hover:bg-[#c2933d];
+    @apply bg-transparent text-black border border-[#d1ae6c] hover:bg-[#c2933d] hover:shadow-md;
   }
   .btn-white {
     @apply text-[#d1ae6c] bg-white hover:bg-white/90;
   }
   .btn-outline {
-    @apply bg-transparent text-[#363435] border border-[#363435] hover:bg-[#363435] hover:text-white;
+    @apply bg-transparent text-black border border-[#d1ae6c] hover:bg-[#c2933d] hover:shadow-md;
   }
   .btn-link {
     @apply text-[#d1ae6c] text-xl lg:text-2xl;
