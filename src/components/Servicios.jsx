@@ -10,7 +10,7 @@ const Servicios = () => {
   const { cards, title, img, subtitle } = servicios
   return (
     <section className='bg-white section' id='servicios'>
-    <div className='container mx-auto'>
+    <div className='container mx-auto p-4'>
       {/** title **/}
       <h2
         className='h2 mb-10 lg:mb-15 text-center'

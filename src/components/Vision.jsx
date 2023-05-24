@@ -5,9 +5,9 @@ import { vision } from '../data'
 const Vision = () => {
   const { title, subtitle, btnLink, btnIcon, image } = vision
   return (
-    <section className='bg-white section' id='vision'>
-      <div className='container mx-auto min-h-[900px] flex justify-center items-center'>
-        <div className='flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-center text-center lg:text-left'>
+    <section className='bg-white min-h-[900px] section py-20' id='vision'>
+      <div className='container mx-auto min-h-[900px] flex justify-center items-center p-6'>
+        <div className='flex flex-col-reverse lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-center text-center lg:text-left '>
           {/** image **/}
           <div
             className='flex-1 aspect-ratio aspect-ratio-16/9'

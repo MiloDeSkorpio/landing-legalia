@@ -9,24 +9,24 @@ const Contacto = () => {
   //destrucutre contact 
   const { form, title } = contacto
   return (
-    <section className='bg-white section' id='contacto'>
-    <div className='container mx-auto max-w-[1200px]'>
+    <section className='bg-white section min-h-[900px] ' id='contacto'>
+    <div className='container mx-auto p-8'>
       {/** title **/}
       <h2
         className='title mb-10 lg:mb-20 text-center  mx-auto'
         data-aos='fade-up'
         data-aos-delay='200'
       >{title}</h2>
-      <div className='flex flex-col-reverse gap-4 lg:flex-row justify-center items-center'>
+      <div className='flex flex-col-reverse gap-8 lg:flex-row justify-center items-center'>
         <div
           data-aos='fade-up'
           data-aos-offset='200'
           data-aos-delay='800'
         >
-          {/** form   onSubmit={sendEmail} **/}
-          <form className='bg-[#e7d4b1] max-w-[550px] rounded-lg mb-[10px] p-2 py-4 shadow-lg lg:w-[450px]' >
+          {/** form   onSubmit={sendEmail} agregar ak form **/} 
+          <form className='bg-[#e7d4b1] max-w-[667] min-h-[667] rounded-lg mb-[10px] p-2 py-4 shadow-lg w-[350px] md:w-[500px]' >
             <h2 className='text-4xl font-semibold mb-5 text-center'>Ingresa tus Datos</h2>
-            <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
+            <div className='h-[62px] p-[7px] flex flex-col my-4'>
               <label className='font-semibold pr-4' for='nombre'>Nombre</label>
               <input
                 type='text'
@@ -37,7 +37,7 @@ const Contacto = () => {
                 required
               />
             </div>
-            <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
+            <div className='h-[62px] p-[7px] flex flex-col my-4'>
               <label className='font-semibold pr-4' for='email'>Correo</label>
               <input
                 type='email'
@@ -48,7 +48,7 @@ const Contacto = () => {
                 required
               />
             </div>
-            <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
+            <div className='h-[62px] p-[7px] flex flex-col my-4'>
               <label className='font-semibold pr-4' for='asunto'>Asunto</label>
               <input
                 type='text'
@@ -59,7 +59,7 @@ const Contacto = () => {
                 required
               />
             </div>
-            <div className='h-[170px] p-[7px] flex flex-col items-center my-4'>
+            <div className='h-[170px] p-[7px] flex flex-col my-4'>
               <label className='font-semibold pr-4' for='mensaje'>Mensaje</label>
               <textarea
                 className='w-full h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
@@ -80,15 +80,15 @@ const Contacto = () => {
           data-aos='fade-down'
           data-aos-offset='200'
           data-aos-delay='800'
-          className='flex-1 aspect-ratio aspect-ratio-16/9'
+          className='flex-1 aspect-ratio aspect-ratio-16/9 py-0'
         >
           <img
             src={form.logo}
             alt='logof'
             className='rounded-md object-cover'
             loading="lazy"
-            height="667"
-            width="1000"
+            height="788" 
+            width="940"
           />
         </div>
       </div>
