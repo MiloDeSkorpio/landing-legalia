@@ -45,35 +45,35 @@ export const servicios = {
   img: ServicesImg,
   cards: [
     { 
-      name: 'Licencia de Construción',
+      name: 'Asuntos Agrarios',
       delay: 100 
     },
     { 
-      name: 'Licencia de Uso de Suelo',
+      name: 'Asuntos Mercantiles',
       delay: 200
     },
     { 
-      name: 'Licencia de Demolición',
+      name: 'Asuntos Corporativos',
       delay: 300 
     },
     { 
-      name: 'Tramites relativos a construcción',
+      name: 'Asuntos de la Construcción',
       delay: 400 
     },
     { 
-      name: 'Laboral',
+      name: 'Asuntos Laborales',
       delay: 400 
     },
     { 
-      name: 'Civil',
+      name: 'Asuntos Civiles',
       delay: 400 
     },
     { 
-      name: 'Familiar',
+      name: 'Asuntos Familiares',
       delay: 400 
     },
     { 
-      name: 'Penal',
+      name: 'Asuntos Penales',
       delay: 400 
     },
   ]
