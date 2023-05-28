@@ -8,7 +8,7 @@ import ContactImg from '../src/assets/img/contact.svg'
 import FacebookIcon from '../src/assets/img/facebook.svg'
 import WhatsAppIcon from '../src/assets/img/whatsapp.svg'
 import InstagramIcon from '../src/assets/img/instagram.svg'
-
+import VideoHome from '../src/assets/img/home.mp4'
 export const header = {
   logo: LogoImg,
   btnText: 'Contáctanos'
@@ -19,7 +19,7 @@ export const nav = [
   { name: 'Servicios', href: '#servicios' }
 ]
 export const hero = {
-
+  video: VideoHome
 }
 
 export const mision = {
