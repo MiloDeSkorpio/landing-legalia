@@ -17,29 +17,10 @@ const Servicios = () => {
         data-aos='fade-up'
         data-aos-delay='200'
       >{title}</h2>
-      <div className='flex flex-col lg:grid lg:grid-cols-3'>
-        <div
-          data-aos='fade-right'
-          data-aos-offset='300'
-          className='flex-1 aspect-ratio aspect-ratio-16/9'
-        >
-        {/** subtitle **/}
-        <h3
-          className='text-3xl lg:text-5xl font-semibold mb-15 lg:mb-2 text-center'
-          data-aos='fade-up'
-          data-aos-delay='300'
-        >{subtitle}</h3>
-          <img
-            src={img}
-            alt='logof'
-            className='rounded-md object-cover'
-            loading="lazy"
-            height="667" 
-            width="1000"
-          />
-        </div>
+      <div className='flex flex-col'>
+        {/*  */}
         {/** cards **/}
-        <div className='flex flex-col mb-1 md:grid md:col-span-2 md:grid-cols-3 gap-2'>
+        <div className='flex flex-col mb-1 md:grid md:col-span-2 md:grid-cols-4 gap-2'>
           {cards.map((card, cardIndex) => {
             //destructure card
             const { name, delay } = card
@@ -62,7 +43,7 @@ const Servicios = () => {
                   {/** card name **/}
                   <div className='text-[20px] font-semibold mb-3'>{name}</div>
                   {/** card img **/}
-                  {index === cardIndex && <a href='#contacto'><img src={ArrowImg} alt='rowcard' loading="lazy" width="24" height="24" /></a>}
+                  {index === cardIndex && <a href='#contacto' className='flex'>Informes<img src={ArrowImg} alt='rowcard' loading="lazy" width="24" height="24" className='m-1' /></a>}
                 </div>
               </div>
             )
