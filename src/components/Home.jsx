@@ -9,7 +9,11 @@ const Home = () => {
   const { video} = hero
   return (
     <section className='bg-white section flex items-center justify-center min-h-[900px]'>
-      <div className='w-5/6 lg:w-5/12'>
+      <div 
+        className='w-5/6 lg:w-5/12'
+        data-aos='zoom-out'
+        data-aos-delay='1000'      
+      >
         <video ref={videoRef}>
           <source src={video} type="video/mp4" />
         </video>
