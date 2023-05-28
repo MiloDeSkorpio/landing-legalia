@@ -5,7 +5,9 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 //import css
 import './index.css'
+
 // Importa tus componentes utilizando lazy
+const Home = lazy(() => import ('./components/Home'));
 const Header = lazy(() => import('./components/Header'));
 const Mision = lazy(() => import('./components/Mision'));
 const Vision = lazy(() => import('./components/Vision'));
@@ -24,6 +26,7 @@ Aos.init({
       <Suspense fallback={<div>Loading...</div>}>
         {/* Wrap tus componentes en Suspense */}
         <Header />
+        <Home />
         <Mision />
         <Vision />
         <Servicios />
