@@ -18,19 +18,14 @@
 
   <!-- Google Tag Manager -->
   <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.defer = true; // Cargar de forma diferida
-      j.src = 'https://www.googletagmanager.com/gtag/js?id=G-JBQ269JMPF';
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer');
+    function loadGoogleTagManager() {
+      var script = document.createElement('script');
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-JBQ269JMPF';
+      script.defer = true;
+      document.head.appendChild(script);
+    }
+
+    window.addEventListener('load', loadGoogleTagManager);
   </script>
   <!-- Fin Google Tag Manager -->
 </head>
