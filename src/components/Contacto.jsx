@@ -99,8 +99,8 @@ const Contacto = () => {
               alt='logof'
               className='rounded-md object-cover'
               loading="lazy"
-              height="788"
-              width="940"
+              width="709px" 
+              height="594px"
             />
           </div>
         </div>
