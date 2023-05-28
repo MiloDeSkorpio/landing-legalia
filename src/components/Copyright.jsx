@@ -6,8 +6,6 @@ const Copyright = () => {
   const {  copyText} = copyright
   return (
     <div
-    data-aos='fade-left'
-    data-aos-delay='200'
     >
       {/** links **/}
       <div

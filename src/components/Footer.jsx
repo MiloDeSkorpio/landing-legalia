@@ -12,8 +12,6 @@ const Footer = () => {
         <div className='flex flex-col items-center text-center lg:flex-row lg:items-start lg:text-left lg:justify-between gap-y-8'>
           {/** logo **/}
           <div
-            data-aos='fade-right'
-            data-aos-delay='200'
             className='text-center p-5'
           >
             <h2 className='text-black text-xl font-semibold'>{address}</h2>
@@ -21,8 +19,6 @@ const Footer = () => {
           {/** social icons **/}
           <div 
             className='text-center'
-            data-aos='fade-up'
-            data-aos-delay='200'
           >
             <h2 className='text-xl font-semibold mb-4'>{title}</h2>
             <ul className='flex gap-x-[20px]'>
