@@ -8,7 +8,7 @@ import ContactImg from '../src/assets/img/contact.svg'
 import FacebookIcon from '../src/assets/img/facebook.svg'
 import WhatsAppIcon from '../src/assets/img/whatsapp.svg'
 import InstagramIcon from '../src/assets/img/instagram.svg'
-import VideoHome from '../src/assets/img/home.mp4'
+import AnimationHome from '../src/assets/img/home.gif'
 export const header = {
   logo: LogoImg,
   btnText: 'Contáctanos'
@@ -19,7 +19,9 @@ export const nav = [
   { name: 'Servicios', href: '#servicios' }
 ]
 export const hero = {
-  video: VideoHome
+  Animation: AnimationHome,
+  w: 600,
+  h: 600
 }
 
 export const mision = {
@@ -85,7 +87,7 @@ export const contacto = {
     ph1: 'Ramon Perez',
     ph2: 'perez.ra10@correo.es',
     ph3: 'Cotizacion',
-    ph4: 'Requiero informes sobre...',
+    ph4: 'Cuentanos sobre tu problema ...',
     btnText: 'Enviar',
     smallText: 'Recuerda revisar tus datos!',
     logo: ContactImg
@@ -95,10 +97,18 @@ export const contacto = {
 export const footer = {
   title: 'Redes Sociales',
   address: 'Mariano Zúñiga 113 Col. El Hipico, Metepec, Mexico',
+  telefono: '7222127818',
   social: [
-    {icon: FacebookIcon , href: 'https://www.facebook.com/profile.php?id=100091816060022'},
-    {icon: WhatsAppIcon, href: '#'},
-    {icon: InstagramIcon, href: 'https://www.instagram.com/legaliadj/'},
+    {
+      icon: FacebookIcon , 
+      href: 'https://www.facebook.com/profile.php?id=100091816060022',
+      name: 'Legalia Despacho Jurídico',
+    },
+    {
+      icon: InstagramIcon, 
+      href: 'https://www.instagram.com/legaliadj/',
+      name: 'legaliadj',
+    },
   ]
 }
 
